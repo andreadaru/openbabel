@@ -68,7 +68,7 @@ if(TARGET Eigen3::Eigen)
   set(cpptests
     align distgeom eqeq gen3d ${cpptests})
   set(align_parts 1 2 3 4 5)
-  set(eqeq_parts 1 2 3 4)
+  set(eqeq_parts 1 2 3 4 5 6)
   
   # Parts 1-5 are fast; parts 6-7 are large molecules (~10-60s)
   # Parts 8-19 are the pr2317 hard cases (new distgeom fallback tests).
